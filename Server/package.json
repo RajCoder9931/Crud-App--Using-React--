@@ -1,0 +1,21 @@
+{
+  "name": "crudapp",
+  "version": "1.0.0",
+  "description": "This is a Crud app ",
+  "license": "ISC",
+  "author": "Ravi Raj",
+  "type": "commonjs",
+  "main": "index.js",
+  "types": "module",
+    "scripts": {
+    "start": "nodemon index.js"
+  },
+  
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1"
+  }
+}

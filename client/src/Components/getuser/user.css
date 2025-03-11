@@ -1,0 +1,62 @@
+.userTable .edit {
+    background-color: rgba(33, 241, 6, 0.863);
+    padding:5px 10px;
+    border-radius: 5px;
+    color: blue;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.userTable .edit:hover {
+    background: #02d348d3;
+}
+
+.userTable .delete {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.userTable .delete:hover {
+    background-color: darkred;
+}
+.userbutton{
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    padding: 9px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.userTable{
+    width: 60%;
+    background-color: white;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+
+.userTable table{
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+
+}
+
+.userTable table thead th{
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+}
+
+.userTable table tbody td{
+    padding: 10px;
+    text-align: center;
+}
+
